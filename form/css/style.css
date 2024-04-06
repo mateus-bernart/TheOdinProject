@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Nurse Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input{
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+input:valid{
+    border: 1px solid green;
+}
+input:invalid{
+    border: 1px solid red;
+
+}
+.text-container-form{
+    padding: 5%;
+}
+.right-container{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.container-forms{
+    display: flex;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+}
+.text-container-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000008f; /* Set your desired background color */
+    width: 100%; /* Cover the width of the parent */
+}
+.image{
+    margin-right: 10px;
+}
+.text-container-image img{
+    width: 100px;
+    height: auto;
+}
+.background-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 40%;
+    background-image: url(/images/img.jpg);
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Skranji", system-ui;
+
+    
+}
+
+.button{
+    padding: 5%;
+}
+.button h3{
+    font-size: 0.9rem;
+}
+button{
+    padding: 10px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #596D48;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+ul{
+  list-style-type: none;  
+}
+label{
+    font-size: 0.8rem;
+}
+.container-form-info{
+    padding: 5px;
+    box-shadow: 0 6px 4px -2px rgb(181, 181, 181);
+    background-color: white;
+}
+.container-form-info h3{
+    margin-left: 40px;
+}
